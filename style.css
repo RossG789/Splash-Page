@@ -1,17 +1,20 @@
 body {
   font-family: monospace;
-  color: #00ff00;
-  overflow: hidden;
+  color: rgb(167, 135, 93);
+  background-color: #fff4d6;
+  border: 5px solid rgb(167, 135, 93);
+  padding: 10px;
 }
 
 .logo img {
+  border: 5px solid #fff;
   width: 150px;
   border-radius: 50%;
 }
 
 .company-name,
 .tag-line {
-  background-color: #ff0000;
+  background-color: #eae2b7;
   padding: 10px;
   margin: 5px;
   border-radius: 20px;
@@ -22,15 +25,16 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 650px;
+  height: 620px;
   width: auto;
 }
 
 .footer {
+  color: whitesmoke;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 100vw;
-  background-color: #0000ff;
+  background-color: #d5bdaf;
 }
