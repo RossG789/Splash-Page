@@ -1,0 +1,36 @@
+body {
+  font-family: monospace;
+  color: #00ff00;
+  overflow: hidden;
+}
+
+.logo img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.company-name,
+.tag-line {
+  background-color: #ff0000;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+.splash-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 650px;
+  width: auto;
+}
+
+.footer {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100vw;
+  background-color: #0000ff;
+}
